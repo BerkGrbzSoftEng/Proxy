@@ -1,7 +1,9 @@
 # Proxy
-Proxy Design Pattern
+### Proxy Design Pattern
 1.Oluşturulması zaman alan bir nesne yaratılması gerektiğinde
 2.Uzaktan erişilerek bir nesne yaratılması gerektiğinde
 3.Nesneye erişmeden önce bazı kontroller yapılması gerektiğinde
 4.Nesneye erişimin kısıtlı olduğunda yararlı olabilir.
 
+ ### Proxy UML Diyagramı
+![Singleton UML](https://www.tutorialspoint.com/design_pattern/images/singleton_pattern_uml_diagram.jpg)
