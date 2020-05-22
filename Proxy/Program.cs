@@ -16,10 +16,10 @@ namespace Proxy
 
 
             sw.Start();
-            GercekResim gercekresim = new GercekResim("OrnkeResim.png");
-            GercekResim gercekresim2 = new GercekResim("OrnkeResim2.png");
-            gercekresim.Goster();
-            gercekresim2.Goster();
+            GercekResim resim = new GercekResim("OrnkeResim.png");
+            
+            resim.Goster();
+            resim.Goster();
 
             sw.Stop();
             long elapsed = sw.Elapsed.Milliseconds;
